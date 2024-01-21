@@ -1,0 +1,26 @@
+.toDoList li{
+    list-style-type:none;
+    background-color: #7FC7D9;
+    min-height:40px; 
+    margin-bottom: 1em;
+    border-radius: 8px;
+    padding-left: 8px;
+    display: flex;
+}
+.toDoList li{
+    align-items: center;
+    display: flex;
+}
+
+.toDoList li input[type=checkbox] {
+    transform: scale(1.5);
+    margin-right: 10px;
+}
+
+.toDoList li.done{
+    text-decoration: line-through;
+}
+
+.toDoList li button{
+    margin-left:auto;
+}
